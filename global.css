@@ -18,6 +18,10 @@ body {
 	padding-left: 5px;
 }
 
+#boardstats_e .smalltext a span {
+    color: #026CB1 !important;
+}
+
 .usercp_nav_item {
 	display: block;
 	padding: 3px;
