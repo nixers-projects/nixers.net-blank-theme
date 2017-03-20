@@ -1,0 +1,24 @@
+ul.thread_tools, ul.thread_tools li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+ul.thread_tools li {
+	padding-left: 26px;
+	padding-bottom: 4px;
+	margin-bottom: 3px;
+	font-size: 11px;
+}
+
+ul.thread_tools li.printable {
+}
+
+ul.thread_tools li.sendthread {
+}
+
+ul.thread_tools li.subscription_add {
+}
+
+ul.thread_tools li.subscription_remove {
+}

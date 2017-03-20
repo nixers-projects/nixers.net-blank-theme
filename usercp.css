@@ -1,0 +1,110 @@
+.usercp_nav_item {
+	display: block;
+	padding: 3;
+}
+.usercp_nav_composepm {
+
+}
+
+.usercp_nav_pmfolder {
+
+}
+
+.usercp_nav_sub_pmfolder {
+	padding-left: 3px;
+
+}
+
+.usercp_nav_trash_pmfolder {
+	padding-left: 3px;
+
+}
+
+.usercp_nav_pmtracking {
+
+}
+
+.usercp_nav_pmfolders {
+
+}
+
+.usercp_nav_profile {
+
+}
+
+.usercp_nav_email {
+	padding-left: 3px;
+
+}
+
+.usercp_nav_password {
+	padding-left: 3px;
+
+}
+
+.usercp_nav_username {
+	padding-left: 3px;
+
+}
+
+.usercp_nav_editsig {
+	padding-left: 3px;
+
+}
+
+.usercp_nav_avatar {
+	padding-left: 3px;
+
+}
+
+.usercp_nav_options {
+
+}
+
+.usercp_nav_usergroups {
+
+}
+
+.usercp_nav_editlists {
+
+}
+
+.usercp_nav_attachments {
+
+}
+
+.usercp_nav_drafts {
+
+}
+
+.usercp_nav_subscriptions {
+
+}
+
+.usercp_nav_fsubscriptions {
+
+}
+
+.usercp_nav_notepad {
+
+}
+
+.usercp_nav_viewprofile {
+
+}
+
+.usercp_nav_home {
+
+}
+
+.usercp_notepad {
+	width: 99%;
+}
+
+.usercp_container {
+	margin: 3px;
+	padding: 8px;
+	border:1px solid #CCCCCC;
+}
+
+
