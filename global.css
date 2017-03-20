@@ -77,11 +77,13 @@ hr {
 }
 
 .post_author .largetext span  
-, #boardstats_e .smalltext a span  
-, a:link  
+, #boardstats_e .smalltext a span {
+	color: #026CB1 !important;
+}
+a:link  
 , a:visited  
 , a:hover, a:active {
-	color: #026CB1 !important;
+	color: #026CB1;
 }
 .thead  
 , .tfoot {
