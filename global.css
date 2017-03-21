@@ -111,6 +111,10 @@ hr {
 , .tcat {
 	background: #ADCBE7;
 }
+.pagination .pagination_current  
+, .pagination a {
+	border: 1px solid #ADCBE7;
+}
 
 .pagination_breadcrumb {
 	outline: 1px solid #ccc;
@@ -157,11 +161,6 @@ blockquote cite
 ._neutral {
 	background-color:#FAFAFA;
 	color: #999999;
-}
-
-.pagination .pagination_current  
-, .pagination a {
-	border: 1px solid #81A2C4;
 }
 
 .trow_shaded {
