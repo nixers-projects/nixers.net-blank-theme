@@ -2,7 +2,11 @@
  * Main colors are:
  * #424242 -> text
  * #F4F3F2 -> background
- * #026CB1 -> links
+ * #026CB1 -> links & active color
+ * #ADCBE7 -> table headings
+ * #E0E0E0 -> Bold lines back
+ * #CCCCCC -> light separation for quotes
+ * #FBE3E4 -> alert background
  */
 body {
 	font-family: Verdana, Arial, Sans-Serif;
@@ -14,6 +18,23 @@ body {
 
 /* COLORS */
 
+.post_author .largetext span  
+, #boardstats_e .smalltext a span  
+, .usernames {
+	color: #026CB1 !important;
+}
+a:link  
+, a:visited  
+, a:hover, a:active {
+	color: #026CB1;
+}
+input.textbox  
+, textarea  
+, select  
+, .editor_control_bar {
+	border: 1px solid #026CB1;
+}
+
 body  
 , input.textbox  
 , textarea  
@@ -22,21 +43,20 @@ body
 , .autocomplete  
 , .popup_menu .popup_item  
 , blockquote  
-, .codeblock {
+, .codeblock  
+, .trow1  
+, .pagination .pagination_current  
+, .pagination a:hover  
+, .pagination_breadcrumb {
 	background: #F4F3F2;
-}
-.thead  
-, .thead a:link  
-, .thead a:visited  
-, .thead a:hover, .thead a:active  
-, .tfoot  
-, .tfoot a:link  
-, .tfoot a:visited  
-, .tfoot a:hover, .tfoot a:active {
-	color: #F4F3F2;
 }
 .pagination_breadcrumb {
 	border: 1px solid #F4F3F2;
+}
+
+#panel  
+, .trow2 {
+	background: #E0E0E0;
 }
 
 body  
@@ -61,7 +81,16 @@ body
 , .popup_menu .popup_item:hover  
 , hr  
 , div.error p  
-, .pagination .pagination_current {
+, .pagination .pagination_current  
+, .thead  
+, .thead a:link  
+, .thead a:visited  
+, .thead a:hover, .thead a:active  
+, .tfoot  
+, .tfoot a:link  
+, .tfoot a:visited  
+, .tfoot a:hover, .tfoot a:active  
+, .offline {
 	color: #424242;
 }
 .tborder.postbit_table  
@@ -76,25 +105,10 @@ hr {
 	background-color: #424242;
 }
 
-.post_author .largetext span  
-, #boardstats_e .smalltext a span {
-	color: #026CB1 !important;
-}
-a:link  
-, a:visited  
-, a:hover, a:active {
-	color: #026CB1;
-}
 .thead  
-, .tfoot {
-	background: #026CB1;
-}
-
-.trow1  
-, .pagination .pagination_current  
-, .pagination a:hover  
-, .pagination_breadcrumb {
-	background: #f5f5f5;
+, .tfoot  
+, .tcat {
+	background: #ADCBE7;
 }
 
 .pagination_breadcrumb {
@@ -102,6 +116,10 @@ a:link
 }
 .popup_menu {
 	background: #ccc;
+}
+.red_alert  
+, .pm_alert {
+	border: 1px solid #CCC;
 }
 blockquote cite  
 , .codeblock .title {
@@ -114,18 +132,11 @@ blockquote cite
 	border: 1px solid #ccc;
 }
 
-input.textbox  
-, textarea  
-, select  
-, .editor_control_bar {
-	border: 1px solid #0f5c8e;
+.red_alert {
+	background: #FBE3E4;
 }
 
-#panel  
-, .trow2 {
-	background: #EFEFEF;
-}
-
+/* TODO -> continue and check those | not found */
 .editor {
 	background: #f1f1f1;
 }
@@ -138,13 +149,13 @@ input.textbox
 	color: #4874a3;
 }
 
-.tcat {
-	background: #ADCBE7;
-}
-
 ._neutral {
 	background-color:#FAFAFA;
 	color: #999999;
+}
+
+.online {
+	color: #15A018;
 }
 
 .pagination .pagination_current  
@@ -222,20 +233,10 @@ img.attachment {
 	background: #FFFFCC;
 }
 
-.pm_alert {
-	background: #FFF6BF;
-	border: 1px solid #FFD324;
-}
 div.error {
 	background: #FFF6BF;
 	border-top: 2px solid #FFD324;
 	border-bottom: 2px solid #FFD324;
-}
-
-.red_alert {
-	background: #FBE3E4;
-	border: 1px solid #A5161A;
-	color: #A5161A;
 }
 
 .high_warning {
@@ -253,14 +254,6 @@ div.error {
 div.error p em  
 , .error_message {
 	color: #C00;
-}
-
-.online {
-	color: #15A018;
-}
-
-.offline {
-	color: #C7C7C7;
 }
 
 ._minus {
@@ -652,14 +645,14 @@ form {
 .pm_alert {
 	text-align: center;
 	padding: 5px 20px;
-	margin-bottom: 15px;
+	margin-top: 15px;
 	font-size: 11px;
 }
 
 .red_alert {
 	text-align: center;
 	padding: 5px 20px;
-	margin-bottom: 15px;
+	margin-top: 15px;
 	font-size: 11px;
 }
 
