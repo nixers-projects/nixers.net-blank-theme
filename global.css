@@ -7,6 +7,7 @@
  * #E0E0E0 -> Bold lines back
  * #CCCCCC -> light separation for quotes
  * #FBE3E4 -> alert background
+ * #15A018 -> green (online status)
  */
 body {
 	font-family: Verdana, Arial, Sans-Serif;
@@ -136,6 +137,10 @@ blockquote cite
 	background: #FBE3E4;
 }
 
+.online {
+	color: #15A018;
+}
+
 /* TODO -> continue and check those | not found */
 .editor {
 	background: #f1f1f1;
@@ -152,10 +157,6 @@ blockquote cite
 ._neutral {
 	background-color:#FAFAFA;
 	color: #999999;
-}
-
-.online {
-	color: #15A018;
 }
 
 .pagination .pagination_current  
@@ -182,26 +183,6 @@ blockquote cite
 
 .popup_menu .popup_item:hover {
 	background: #C7DBEE;
-}
-
-.trow_reputation_positive {
-	background: #ccffcc;
-}
-
-.trow_reputation_negative {
-	background: #ffcccc;
-}
-
-.reputation_positive {
-	color: green;
-}
-
-.reputation_neutral {
-	color: #444;
-}
-
-.reputation_negative {
-	color: red;
 }
 
 .invalid_field {
