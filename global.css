@@ -308,7 +308,8 @@ div.error p em
 }
 
 .quotecontent img {
-	width: 100%;
+	max-width: 100%;
+	height: auto;
 }
 
 #header {
@@ -461,6 +462,7 @@ textarea {
 /* Additional CSS (Master) */
 img {
 	max-width: 100%;
+	height: auto;
 	border: none;
 }
 
