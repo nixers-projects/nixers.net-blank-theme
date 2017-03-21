@@ -7,7 +7,7 @@
  * #E0E0E0 -> Bold lines back
  * #CCCCCC -> light separation for quotes
  * #FBE3E4 -> alert background
- * #15A018 -> green (online status)
+ * #15A018 -> green (online status, success)
  */
 body {
 	font-family: Verdana, Arial, Sans-Serif;
@@ -21,6 +21,7 @@ body {
 
 .post_author .largetext span  
 , #boardstats_e .smalltext a span  
+, .menu ul a:hover, .menu ul a:active  
 , .usernames {
 	color: #026CB1 !important;
 }
@@ -29,7 +30,8 @@ a:link
 , a:hover, a:active {
 	color: #026CB1;
 }
-input.textbox  
+.valid_field  
+, input.textbox  
 , textarea  
 , select  
 , .editor_control_bar {
@@ -48,7 +50,8 @@ body
 , .trow1  
 , .pagination .pagination_current  
 , .pagination a:hover  
-, .pagination_breadcrumb {
+, .pagination_breadcrumb  
+.editor {
 	background: #F4F3F2;
 }
 .pagination_breadcrumb {
@@ -91,6 +94,8 @@ body
 , .tfoot a:link  
 , .tfoot a:visited  
 , .tfoot a:hover, .tfoot a:active  
+, ._minus  
+, ._plus  
 , .offline {
 	color: #424242;
 }
@@ -106,7 +111,9 @@ hr {
 	background-color: #424242;
 }
 
-.thead  
+.popup_menu .popup_item:hover  
+, .autocomplete_selected  
+, .thead  
 , .tfoot  
 , .tcat {
 	background: #ADCBE7;
@@ -119,133 +126,50 @@ hr {
 .pagination_breadcrumb {
 	outline: 1px solid #ccc;
 }
-.popup_menu {
+.trow_sep  
+, .popup_menu {
 	background: #ccc;
 }
-.red_alert  
-, .pm_alert {
+#panel  
+, .red_alert  
+, .pm_alert  
+, div.error  
+, .editor  
+, blockquote  
+, .codeblock  
+, ._neutral {
 	border: 1px solid #CCC;
 }
 blockquote cite  
 , .codeblock .title {
 	border-bottom: 1px solid #ccc;
 }
-.editor  
-, blockquote  
-, .codeblock  
-, ._neutral {
-	border: 1px solid #ccc;
-}
-
-.red_alert {
-	background: #FBE3E4;
-}
-
-.online {
-	color: #15A018;
-}
-
-/* TODO -> continue and check those | not found */
-.editor {
-	background: #f1f1f1;
-}
-
-#panel {
-	border: 1px solid #D4D4D4;
-}
-
-.menu ul a:hover, .menu ul a:active {
-	color: #4874a3;
-}
-
-._neutral {
-	background-color:#FAFAFA;
-	color: #999999;
-}
-
-.trow_shaded {
-	background: #ffdde0;
-}
-
-.trow_selected td  
-, .selectall {
-	background: #FFFBD9;
-}
-
-.trow_sep {
-	background: #e5e5e5;
-}
-
-.autocomplete_selected {
-	background: #adcee7;
-}
-
-.popup_menu .popup_item:hover {
-	background: #C7DBEE;
-}
-
-.invalid_field {
-	border: 1px solid #f30;
-	color: #f30;
-}
-.validation_error {
-	color: #f30;
-}
-
-.valid_field {
-	border: 1px solid #0c0;
-}
-
-.validation_success  
-, .success_message {
-	color: #00b200;
-}
-
 .validation_loading {
 	color: #555;
 }
 
-img.attachment {
-	border: 1px solid #E9E5D7;
+.invalid_field {
+	border: 1px solid #f30;
+}
+.high_warning  
+, .moderate_warning  
+, .low_warning  
+, div.error p em  
+, .error_message  
+, .invalid_field  
+, .validation_error {
+	color: #FBE3E4;
+}
+._minus  
+, .red_alert {
+	background: #FBE3E4;
 }
 
-.highlight {
-	background: #FFFFCC;
-}
-
-div.error {
-	background: #FFF6BF;
-	border-top: 2px solid #FFD324;
-	border-bottom: 2px solid #FFD324;
-}
-
-.high_warning {
-	color: #CC0000;
-}
-
-.moderate_warning {
-	color: #F3611B;
-}
-
-.low_warning {
-	color: #AE5700;
-}
-
-div.error p em  
-, .error_message {
-	color: #C00;
-}
-
-._minus {
-	background-color: #FDD2D1;
-	color: #CB0200;
-	border:1px solid #980201;
-}
-
-._plus {
-	background-color:#E8FCDC;
-	color: #008800;
-	border:1px solid #008800;
+.online  
+, ._plus  
+, .validation_success  
+, .success_message {
+	color: #15A018;
 }
 
 /* END - COLORS */
