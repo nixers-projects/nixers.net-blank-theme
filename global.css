@@ -654,6 +654,7 @@ div.error ul {
 .post_content {
 	border: 0px;
 	padding: 5px 10px;
+	max-width: 0px;
 }
 
 .quick_jump {
