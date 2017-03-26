@@ -1,13 +1,13 @@
 /*
  * Main colors are:
- * #424242 -> text
- * #F4F3F2 -> background
- * #026CB1 -> links & active color
- * #ADCBE7 -> table headings
- * #E0E0E0 -> Bold lines back
- * #CCCCCC -> light separation for quotes
- * #FBE3E4 -> alert background
- * #15A018 -> green (online status, success)
+ * #424242 rgb(66, 66, 66)    -> text
+ * #F4F3F2 rgb(244, 243, 242) -> background
+ * #026CB1 rgb(2, 108, 177)   -> links & active color 
+ * #ADCBE7 rgb(173, 203, 231) -> table headings
+ * #E0E0E0 rgb(224, 224, 224) -> Bold lines back
+ * #CCCCCC rgb(204, 204, 204) -> light separation for quotes
+ * #FBE3E4 rgb(251, 227, 228) -> alert background
+ * #15A018 rgb(21, 160, 24)   -> green (online status, success)
  */
 body {
 	font-family: Verdana, Arial, Sans-Serif;
