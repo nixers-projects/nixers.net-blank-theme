@@ -59,11 +59,11 @@ function setDayMode() {
 function toggleNightMode() {
     // Store
     if (localStorage.nightMode == 'off') {
-        setDayMode();
+        setNightMode();
         localStorage.setItem('nightMode', 'on');
     } 
     else {
-        setNightMode();
+        setDayMode();
         localStorage.setItem('nightMode', 'off');
     }
 }
