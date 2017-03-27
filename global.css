@@ -101,6 +101,7 @@ body
 }
 .tborder.postbit_table  
 , .autocomplete  
+, input[type="button"], input[type="submit"]  
 , .popup_menu {
 	border: 1px solid #424242;
 }
@@ -127,6 +128,7 @@ hr {
 	outline: 1px solid #ccc;
 }
 .trow_sep  
+, input[type="button"], input[type="submit"]  
 , .popup_menu {
 	background: #ccc;
 }
@@ -173,6 +175,13 @@ blockquote cite
 }
 
 /* END - COLORS */
+
+input[type="button"], input[type="submit"] {
+    padding: 4px;
+    margin-right: 2px;
+    margin-top: 2px;
+    border: 0px;
+}
 
 #panel {
 	font-size: 11px;
