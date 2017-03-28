@@ -260,9 +260,12 @@ blockquote cite
 	margin-right: 1em;
 }
 
+#navcontainer  
+, #container {
+	width: 65%;
+}
 #navcontainer {
 	display: block;
-	width: 95%;
 	margin: auto;
 	text-align: left;
 }
@@ -299,7 +302,6 @@ a:hover, a:active
 }
 
 #container {
-	width: 95%;
 	margin: auto auto;
 	padding: 0px;
 	text-align: left; /* IE 5 fix */
@@ -695,8 +697,33 @@ div.error ul {
 	cursor: pointer;
 }
 
+@media (max-width: 1350px) {
+	#navcontainer  
+	, #container {
+		width: 75%;
+	}
+}
+
+@media (max-width: 1150px) {
+	#navcontainer  
+	, #container {
+		width: 80%;
+	}
+}
+
+@media (max-width: 850px) {
+	#navcontainer  
+	, #container {
+		width: 90%;
+	}
+}
+
 @media (max-width: 450px) {
 	.forum_bit_description {
 		display: none;
+	}
+	#navcontainer  
+	, #container {
+		width: 95%;
 	}
 }
