@@ -6,7 +6,7 @@
  * #ADCBE7 rgb(173, 203, 231) -> table headings
  * #E0E0E0 rgb(224, 224, 224) -> Bold lines back
  * #CCCCCC rgb(204, 204, 204) -> light separation for quotes
- * #FBE3E4 rgb(251, 227, 228) -> alert background
+ * #E79397 rgb(231, 147, 151) -> alert background
  * #15A018 rgb(21, 160, 24)   -> green (online status, success)
  */
 body {
@@ -170,7 +170,7 @@ blockquote cite
 , .error_message  
 , .invalid_field  
 , .validation_error {
-	color: #FBE3E4;
+	color: #E79397;
 }
 ._minus  
 , .red_alert {

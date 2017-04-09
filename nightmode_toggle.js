@@ -13,7 +13,7 @@ var lightCol = [
     'rgb(173, 203, 231)', //tableCol
     'rgb(224, 224, 224)', //bolCol
     'rgb(204, 204, 204)', //lightCol
-    'rgb(251, 227, 228)', //alertCol
+    'rgb(231, 147, 151)', //alertCol
     'rgb(21, 160, 24)' //greenCol
 ]
 var darkCol = [
