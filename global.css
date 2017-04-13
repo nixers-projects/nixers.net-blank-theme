@@ -17,6 +17,7 @@ body {
 	/*background: transparent url("https://www.toptal.com/designers/subtlepatterns/patterns/seamless_paper_texture.png") repeat scroll 0% 0%;*/
 }
 
+.button,
 input[type="button"], input[type="submit"] {
     padding: 4px;
     margin-right: 2px;
@@ -36,6 +37,7 @@ input[type="button"], input[type="submit"] {
 }
 a:link  
 , a:visited  
+, .button
 , input[type="button"], input[type="submit"]  
 , a:hover, a:active {
 	color: #026CB1;
@@ -59,6 +61,7 @@ body
 , .codeblock  
 , .trow1  
 , .pagination .pagination_current  
+, .button
 , .pagination a:hover  
 , input[type="button"], input[type="submit"]  
 , .pagination_breadcrumb  
@@ -130,6 +133,7 @@ hr {
 	background: #ADCBE7;
 }
 .pagination .pagination_current  
+, .button  
 , input[type="button"], input[type="submit"]  
 , .pagination a {
 	border: 1px solid #ADCBE7;
