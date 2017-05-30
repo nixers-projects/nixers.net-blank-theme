@@ -497,12 +497,12 @@ blockquote cite {
 	margin: 4px 0;
 }
 
-blockquote cite span {
+blockquote cite > span {
 	float: right;
 	font-weight: normal;
 }
 
-blockquote cite span.highlight {
+blockquote cite > span.highlight {
 	float: none;
 	font-weight: bold;
 	padding-bottom: 0;
