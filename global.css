@@ -33,7 +33,7 @@ input[type="button"], input[type="submit"] {
 , #boardstats_e .smalltext a span  
 , .menu ul a:hover, .menu ul a:active  
 , .usernames {
-	color: #026CB1 !important;
+	color: #026CB1;
 }
 a:link  
 , a:visited  
@@ -177,6 +177,7 @@ blockquote cite
 	color: #E79397;
 }
 ._minus  
+, .deleted_post  
 , .red_alert {
 	background: #FBE3E4;
 }
