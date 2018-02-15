@@ -73,7 +73,8 @@ body
 }
 
 #panel  
-, .trow2 {
+, .trow2
+, .forumdisplay_sticky {
 	background: #E0E0E0;
 }
 
