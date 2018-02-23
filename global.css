@@ -190,6 +190,11 @@ blockquote cite
 	color: #15A018;
 }
 
+.highlight {
+	background-color: yellow;
+}
+
+
 /* END - COLORS */
 
 #panel {
