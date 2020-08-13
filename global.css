@@ -15,6 +15,8 @@ body {
 	text-align: center; /* IE 5 fix */
 	line-height: 1.4;
 	/*background: transparent url("https://www.toptal.com/designers/subtlepatterns/patterns/seamless_paper_texture.png") repeat scroll 0% 0%;*/
+	margin-left: 3ex;
+	margin-right: 3ex;
 }
 
 .button,
@@ -178,7 +180,6 @@ blockquote cite
 	color: #E79397;
 }
 ._minus  
-, .deleted_post  
 , .red_alert {
 	background: #FBE3E4;
 }
@@ -191,7 +192,7 @@ blockquote cite
 }
 
 .highlight {
-	background-color: yellow;
+  background-color: yellow;
 }
 
 
@@ -244,8 +245,8 @@ blockquote cite
 }
 
 .post_avatar {
-	width: 50px;
-	height: 50px;
+	width: 65px;
+	height: 65px;
 }
 
 .name_topic {
@@ -269,11 +270,14 @@ blockquote cite
 #nixerlogo {
 	display: inline-block;
 	margin-right: 1em;
+        font-size: 2.5ex;
+        font-weight: bold;
 }
 
 #navcontainer  
 , #container {
-	width: 65%;
+	max-width: 60em;
+	margin: 0 auto;
 }
 #navcontainer {
 	display: block;
@@ -708,34 +712,52 @@ div.error ul {
 	cursor: pointer;
 }
 
-@media (max-width: 1350px) {
-	#navcontainer  
-	, #container {
-		width: 75%;
-	}
-}
-
-@media (max-width: 1150px) {
-	#navcontainer  
-	, #container {
-		width: 80%;
-	}
-}
-
-@media (max-width: 850px) {
-	#navcontainer  
-	, #container {
-		width: 90%;
-	}
-}
-
 @media (max-width: 450px) {
-	.forum_bit_description {
-		display: none;
+	.forum_bit_description, .printable, .memberlist, .stats, .syndication {
+		display:none
 	}
-	#navcontainer  
-	, #container {
-		width: 95%;
+	body {
+		margin-left: 1ex;
+		margin-right: 1ex;
+		font-size: 1.4ex;
+		line-height:1.5;
+	}
+	.bigtext,
+	.search_threads_thread {
+		font-size:17px
+	}
+	table {
+		font-size: 15px;
+	}
+	.syntaxhelp a, .nightmode a  {
+		font-weight: bold;
+		border: 2px solid #E0E0E0;
+		padding: 1ex;
+	}
+	.nightmode
+	{
+		float: right;
+	}
+	.nightmode a
+	{
+		margin: 2ex;
+		float: right;
+	}
+	.syntaxhelp {
+		float: left;
+	}
+	.syntaxhelp a
+	{
+		margin: 2ex;
+		float: left;
+	}
+	.post_content {
+		padding: 0.5ex 0.5ex;
+	}
+	.pagination span, .pagination a {
+		margin: 0.3ex;
+		display: inline-block;
+		font-size: 15px;
 	}
 }
 
@@ -751,3 +773,16 @@ div.error ul {
 .codeblock .title {
 	display: none;
 }
+
+#newthreadicon {
+    font-weight: bold;
+    border: 2px solid #424242;
+}
+#newthreadicon:hover {
+    text-decoration: none;
+}
+
+.deleted_post {
+    background-color: yellow;
+}
+
