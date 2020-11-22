@@ -713,13 +713,13 @@ div.error ul {
 }
 
 @media (max-width: 450px) {
-	.forum_bit_description, .printable, .memberlist, .stats, .syndication {
+	.forum_bit_description, .printable, .memberlist, .stats, .faq, .syndication {
 		display:none
 	}
 	body {
 		margin-left: 1ex;
 		margin-right: 1ex;
-		font-size: 1.4ex;
+                font-size:15px;
 		line-height:1.5;
 	}
 	.bigtext,
@@ -759,7 +759,9 @@ div.error ul {
 		display: inline-block;
 		font-size: 15px;
 	}
+
 }
+
 
 .modal {
 	position: fixed;
@@ -786,3 +788,17 @@ div.error ul {
     background-color: yellow;
 }
 
+.mycode_img {
+    max-height: 55em;
+}
+
+.signature {
+    overflow: hidden;
+}
+
+.close-modal {
+    color: #424242;
+    background-color: #ADCBE7;
+    padding: 1ex;
+    font-weight: bold;
+}
