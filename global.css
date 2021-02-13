@@ -11,13 +11,13 @@
  */
 body {
 	font-family: Verdana, Arial, Sans-Serif;
-	font-size: 13px;
 	text-align: center; /* IE 5 fix */
 	line-height: 1.4;
 	/*background: transparent url("https://www.toptal.com/designers/subtlepatterns/patterns/seamless_paper_texture.png") repeat scroll 0% 0%;*/
 	margin-left: 3ex;
 	margin-right: 3ex;
 }
+
 
 .button,
 input[type="button"], input[type="submit"] {
@@ -198,8 +198,70 @@ blockquote cite
 
 /* END - COLORS */
 
+/* START - FONT SIZE */
+
+#nixerlogo {
+        font-size: 2.5ex;
+}
+
+.name_topic {
+	font-size: 1.3em;
+}
+
+.largetext,
+.repbox {
+	font-size: 18px;
+}
+
+.bigtext  
+, .search_threads_thread,
+.pagination span, .pagination a {
+	font-size: 17px;
+}
+
+body, table,
+.navigation  
+, .navigation .active,
+textarea,
+.codeblock code {
+	font-size: 15px;
+}
+
+.tcat, .trow_sep,
+.smalltext,
+div.error {
+	font-size: 14px;
+}
+
+#panel,
+.validation_error,
+.validation_success,
+.validation_loading,
+.pm_alert,
+.red_alert,
+.pagination {
+	font-size: 13px;
+}
+
+.success_message,
+.error_message {
+	font-size: 12px;
+}
+
+#navcontainer  
+, #container {
+	max-width: 55em;
+	margin: 0 auto;
+}
+#navcontainer {
+	display: block;
+	margin: auto;
+	text-align: left;
+}
+
+/* END - FONT SIZE */
+
 #panel {
-	font-size: 11px;
 	padding: 8px;
 }
 
@@ -221,10 +283,6 @@ blockquote cite
 	display: inline-block;
 }
 
-.bigtext  
-, .search_threads_thread {
-	font-size: 15px;
-}
 .search_error_message {
 	padding-top: 1.3em;
 	padding-bottom: 1.3em;
@@ -252,7 +310,6 @@ blockquote cite
 .name_topic {
 	margin-top: 0.5em;
 	margin-bottom: -0.3em;
-	font-size: 1.3em;
 }
 
 .quotecontent img {
@@ -270,19 +327,7 @@ blockquote cite
 #nixerlogo {
 	display: inline-block;
 	margin-right: 1em;
-        font-size: 2.5ex;
         font-weight: bold;
-}
-
-#navcontainer  
-, #container {
-	max-width: 60em;
-	margin: 0 auto;
-}
-#navcontainer {
-	display: block;
-	margin: auto;
-	text-align: left;
 }
 
 .bottommenu {
@@ -341,7 +386,6 @@ a:hover, a:active
 
 table {
 	font-family: Verdana, Arial, Sans-Serif;
-	font-size: 13px;
 }
 
 .tborder {
@@ -350,12 +394,8 @@ table {
 	border: 0;
 }
 
-.tcat {
-	font-size: 12px;
-}
 
 .trow_sep {
-	font-size: 12px;
 	font-weight: bold;
 }
 
@@ -364,16 +404,11 @@ table {
 
 .navigation  
 , .navigation .active {
-	font-size: 13px;
 	font-weight: bold;
 }
 
-.smalltext {
-	font-size: 12px;
-}
 
 .largetext {
-	font-size: 16px;
 	font-weight: bold;
 }
 
@@ -385,14 +420,12 @@ textarea {
 	padding: 2px;
 	font-family: Verdana, Arial, Sans-Serif;
 	line-height: 1.4;
-	font-size: 13px;
 }
 
 .validation_error {
 	margin: 5px 0;
 	padding: 5px;
 	font-weight: bold;
-	font-size: 11px;
 	padding-left: 22px;
 }
 
@@ -400,7 +433,6 @@ textarea {
 	margin: 5px 0;
 	padding: 5px;
 	font-weight: bold;
-	font-size: 11px;
 	padding-left: 22px;
 }
 
@@ -408,7 +440,6 @@ textarea {
 	margin: 5px 0;
 	padding: 5px;
 	font-weight: bold;
-	font-size: 11px;
 	padding-left: 22px;
 }
 
@@ -532,7 +563,6 @@ blockquote cite > span.highlight {
 	max-height: 200px;
 	display: block;
 	font-family: Monaco, Consolas, Courier, monospace;
-	font-size: 13px;
 }
 
 .subforumicon {
@@ -581,19 +611,16 @@ form {
 	text-align: center;
 	padding: 5px 20px;
 	margin-top: 15px;
-	font-size: 11px;
 }
 
 .red_alert {
 	text-align: center;
 	padding: 5px 20px;
 	margin-top: 15px;
-	font-size: 11px;
 }
 
 div.error {
 	padding: 5px 10px;
-	font-size: 12px;
 }
 
 div.error p {
@@ -613,7 +640,6 @@ div.error ul {
 }
 
 .pagination {
-	font-size: 11px;
 	padding-top: 10px;
 	margin-bottom: 5px;
 }
@@ -666,13 +692,11 @@ div.error ul {
 
 .success_message {
 	font-weight: bold;
-	font-size: 10px;
 	margin-bottom: 10px;
 }
 
 .error_message {
 	font-weight: bold;
-	font-size: 10px;
 	margin-bottom: 10px;
 }
 
@@ -695,7 +719,6 @@ div.error ul {
 }
 
 .repbox {
-	font-size:16px;
 	font-weight: bold;
 	padding:5px 7px 5px 7px;
 }
@@ -759,7 +782,6 @@ div.error ul {
 		display: inline-block;
 		font-size: 15px;
 	}
-
 }
 
 
